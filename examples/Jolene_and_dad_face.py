@@ -54,8 +54,8 @@ christine_face_encoding = face_recognition.face_encodings(christine_image)[0]
 
 
 
-import pyttsx3
-engine = pyttsx3.init()
+#import pyttsx3
+#engine = pyttsx3.init()
 # Create arrays of known face encodings and their names
 known_face_encodings = [
     jolene_face_encoding,
@@ -69,7 +69,7 @@ known_face_names = [
     "mom",
     "christine"
 ]
-
+print("Hello is this working")
 
 while True:
     # Grab a single frame of video
