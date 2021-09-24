@@ -123,7 +123,7 @@ while True:
 
 
 
-
+#
 
         # Draw a box around the face
         #cv2.rectangle(frame, (left, top - 50), (right, bottom + 55), (0, 255, 255), 2)
